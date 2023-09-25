@@ -1,0 +1,93 @@
+/* Estilos para o cabeçalho (estilos gerais) */
+header {
+  align-items: center;
+  background-color: black;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+/* Estilos para a classe .container (estilos gerais) */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para os ícones de mídia social e links (estilos gerais) */
+.icon {
+  align-items: center;
+  display: flex;
+}
+
+.parent-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  color: white;
+  margin: 0;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+/* Estilos para o logotipo (estilos gerais) */
+.logo {
+  display: inline-block;
+  height: auto;
+  max-width: 15%;
+  vertical-align: middle;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.logo img:hover {
+  opacity: 0.7;
+}
+
+/* Estilos para celular (max-width: 767px) */
+@media (max-width: 767px) {
+  header {
+    font-size: 12px;
+    padding: 0.5rem; /* Exemplo de redução de fonte para celular */
+  }
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parent-link {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    max-width: 50%;
+  }
+}
+
+/* Estilos para tablet (min-width: 768px e max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 2600px) {
+  /* Estilos específicos para tablet */
+  header {
+    font-size: 14px; /* Exemplo de tamanho de fonte para tablet */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo a {
+    width: 120%;
+  }
+}

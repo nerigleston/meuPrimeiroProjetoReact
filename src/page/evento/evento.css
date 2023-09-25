@@ -1,0 +1,32 @@
+.rick {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rick img {
+  align-items: center;
+  border-radius: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.rick h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navigation-buttons {
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-buttons button {
+  background-color: black;
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: 0px;
+  cursor: pointer;
+}
